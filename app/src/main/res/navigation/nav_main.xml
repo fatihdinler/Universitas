@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/fragmentDersNotlari">
+
+    <fragment
+        android:id="@+id/fragmentHaberler"
+        android:name="com.example.bootcamp.FragmentHaberler"
+        android:label="fragment_haberler"
+        tools:layout="@layout/fragment_haberler" />
+    <fragment
+        android:id="@+id/fragmentCalismaGrubu"
+        android:name="com.example.bootcamp.FragmentCalismaGrubu"
+        android:label="fragment_calisma_grubu"
+        tools:layout="@layout/fragment_calisma_grubu" />
+    <fragment
+        android:id="@+id/fragmentDersNotlari"
+        android:name="com.example.bootcamp.FragmentDersNotlari"
+        android:label="fragment_ders_notlari"
+        tools:layout="@layout/fragment_ders_notlari" />
+    <fragment
+        android:id="@+id/fragmentEtkinlikHabercisi"
+        android:name="com.example.bootcamp.FragmentEtkinlikHabercisi"
+        android:label="fragment_etkinlik_habercisi"
+        tools:layout="@layout/fragment_etkinlik_habercisi" />
+    <fragment
+        android:id="@+id/fragmentStajVeKariyerGelisimi"
+        android:name="com.example.bootcamp.FragmentStajVeKariyerGelisimi"
+        android:label="fragment_staj_ve_kariyer_gelisimi"
+        tools:layout="@layout/fragment_staj_ve_kariyer_gelisimi" />
+    <fragment
+        android:id="@+id/fragmentEgitim"
+        android:name="com.example.bootcamp.FragmentEgitim"
+        android:label="fragment_egitim"
+        tools:layout="@layout/fragment_egitim" />
+    <fragment
+        android:id="@+id/fragmentProjeler"
+        android:name="com.example.bootcamp.FragmentProjeler"
+        android:label="fragment_projeler"
+        tools:layout="@layout/fragment_projeler" />
+    <fragment
+        android:id="@+id/fragmentForum"
+        android:name="com.example.bootcamp.FragmentForum"
+        android:label="fragment_forum"
+        tools:layout="@layout/fragment_forum" />
+    <fragment
+        android:id="@+id/baslangicFragment"
+        android:name="com.example.bootcamp.BaslangicFragment"
+        android:label="fragment_baslangic"
+        tools:layout="@layout/fragment_baslangic" />
+</navigation>

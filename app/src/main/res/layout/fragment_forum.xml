@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentForum">>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="\n\n\nİslam Baykuş\nislambaykus@gmail.com \n13.04.2021    16.26\nArkadaşlar siz de okul kantinindeki çeşitliliklerini az buluyor musunuz?"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Nesrin Erol\nnesrinerol@gmail.com\n
+14.04.2021     17.34\nOkul yemekhanesinde diyet menüsü neden yok?"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Fatma Melisa Küçük\nmelisakucuk@gmail.com\n
+16.04.2021     19.38\nKM41 saatleri çok geç geliyor. Bu konu hakkında kiminle iletişime geçmem gerekiyor?"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Yunus Kasap\nyunuskasap@gmail.com\n
+16.04.2021     21.48\nArkadaşlar, Amerikan Futbol Takımına gelmek isteyenler linki doldursun?"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Kübra Doğmuş\nkubradogmus@gmail.com\n
+17.04.2021     23.48\n5 ders alıyorum. 4 tanesi online. Diğer bölümlerdeki arkadaşlarımın online ders sayıları da bu kadar fazla mı?"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Fatih Erkam Dinler\nfatihdinler@gmail.com\n
+18.04.2021     00.39\nArkadaşlar okul kimlik kartımı kaybettim. Okul numaram 15*******. Bulan birisi bana ulaşabilir mi?"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentEtkinlikHabercisi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/afis1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/white"
+                    android:paddingLeft="50dp"
+                    android:paddingTop="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingBottom="50dp"
+                    android:src="@drawable/bir"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/afis2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/white"
+                    android:paddingLeft="50dp"
+                    android:paddingTop="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingBottom="50dp"
+                    android:src="@drawable/iki"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/afis3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/white"
+                    android:paddingLeft="50dp"
+                    android:paddingTop="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingBottom="50dp"
+                    android:src="@drawable/uc"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/afis4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/white"
+                    android:paddingLeft="50dp"
+                    android:paddingTop="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingBottom="50dp"
+                    android:src="@drawable/dort"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/afis5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/white"
+                    android:paddingLeft="50dp"
+                    android:paddingTop="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingBottom="50dp"
+                    android:src="@drawable/bes" />
+
+                <ImageButton
+                    android:id="@+id/afis6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/white"
+                    android:paddingLeft="50dp"
+                    android:paddingTop="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingBottom="50dp"
+                    android:src="@drawable/alti" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/afis7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/white"
+                    android:paddingLeft="50dp"
+                    android:paddingTop="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingBottom="50dp"
+                    android:src="@drawable/yedi" />
+
+                <ImageButton
+                    android:id="@+id/afis8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/white"
+                    android:paddingLeft="50dp"
+                    android:paddingTop="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingBottom="50dp"
+                    android:src="@drawable/sekiz" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

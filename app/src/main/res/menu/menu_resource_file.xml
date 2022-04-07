@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/baslangicFragment"
+        android:title="Home" />
+    <item
+        android:id="@+id/fragmentDersNotlari"
+        android:title="Ders Notları" />
+    <item
+        android:id="@+id/fragmentEtkinlikHabercisi"
+        android:title="Etkinlik Habercisi" />
+    <item
+        android:id="@+id/fragmentStajVeKariyerGelisimi"
+        android:title="Staj ve Kariyer Gelişimi" />
+    <item
+        android:id="@+id/fragmentProjeler"
+        android:title="Projeler" />
+    <item
+        android:id="@+id/fragmentEgitim"
+        android:title="Eğitim" />
+    <item
+        android:id="@+id/fragmentHaberler"
+        android:title="Haberler" />
+    <item
+        android:id="@+id/fragmentCalismaGrubu"
+        android:title="Çalışma Grubu" />
+    <item
+        android:id="@+id/fragmentForum"
+        android:title="Forum" />
+</menu>

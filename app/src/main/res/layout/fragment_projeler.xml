@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentProjeler">>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="\n\n\nAhmet Karakaya\nahmetkarakaya@gmail.com \n13.04.2021    16.26\nArkadaşlar merhaba, alçak irtifa roket tasarımı üzerine 7 kişil ekibimize bir yazılımcı aramaktayız. İlgilenen arkadaşlarımız benimle iletişime geçebilirler."
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="150dp"
+                android:backgroundTint="@color/green"
+                android:text="İletişime Geç."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Fatih Erkam Dinler\nfatihdinler@gmail.com\n
+14.04.2021     17.34\nİHA tasarımı üzerinde çalışabilecek ekip arkadaşı/arkadaşları arıyoruz.
+İlgilenen arkadaşlar benimle iletişime geçebilir."
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="150dp"
+                android:backgroundTint="@color/green"
+                android:text="İletişime Geç."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Green Technology\ngtech@gmail.com\n
+16.04.2021     19.38\nOpencv ile görüntü işleme ile alakalı tecrübesi bulunan ekip arkadaşı arıyoruz.
+İlgilenen arkadaşlar aşağıdaki butondan bizimle iletişime geçebilirler."
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="150dp"
+                android:backgroundTint="@color/green"
+                android:text="İletişime Geç."
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Yunus Kasap\nyunuskasap@gmail.com\n
+16.04.2021     21.48\nTulparHyperLoop ekibinde levitasyon kısmında çalışacak lineer motor bilen ekip
+arkadaşları arıyorum. İlgilenen arkadaşlar benimle işetişime geçsinler."
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="150dp"
+                android:backgroundTint="@color/green"
+                android:text="İletişime Geç."
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

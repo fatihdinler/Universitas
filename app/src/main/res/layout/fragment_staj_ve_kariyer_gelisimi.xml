@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentStajVeKariyerGelisimi">>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="\n\n\nGENEL NİTELİKLER VE İŞ TANIMI\n\n
+Rotanı yıldızlara çevirmeye hazırsan, Mercedes-Benz uzun dönem staj programımız DRIVE UP başlıyor!
+
+\nÜniversite hayatının son senesine geçiyorsan veya yüksek lisans öğrencisiysen, iyi bir takım oyuncusuysan, inisiyatif almaya, değişime ve öğrenmeye hazırsan DRIVE UP Uzun Dönem Staj Programı’na hemen başvur!
+
+\nBu programda yer alacak ekip arkadaşlarımız, Mercedes-Benz Otomotiv ve Mercedes-Benz Finansal Hizmetler şirketleri bünyelerinde aşağıda yer alan departmanlardan birinde görev alabilecek.."
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Görüntülenme Sayısı : 213     Başvuru Sayısı : 197"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="@color/green"
+                android:text="İletişime Geç." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="WEB Teknolojileri Stajyeri (Q1 - 22)\n
+\nStajyer alım ilanıdır. İşe alım ilanı değildir.
+İşe alım veya profesyonel istihdam maksatlı başvurular yapılmamalıdır.
+Ücret karşılığı çalışma amaçlı başvurular yapılmamalıdır.
+Üniversitelerin lisans düzeyinde yazılım, bilgisayar ve bilişim teknolojileri bölümlerinde öğrenim gören adayların başvuruları değerlendirilecektir.
+Başvuru yapan stajyer adaylarının aşağıdaki bilgi ve yetenekleri karşılaması beklenmektedir:
+
+HTML5 ve CSS3 teknikleri ile dinamik web sayfaları alanında uğraşacak,
+İngilizce yazma ve okumada ileri seviyede,
+Tercihen grafik tasarım alanında bilgi sahibi,
+Tercihen e-ticaret çözümlerinde bilgi sahibi,
+Tercihen profesyonel video alanında bilgi sahibi,
+Stajı okul tarafından zorunlu olan ya da gönüllü staj yapmak suretiyle kendini geliştirmek isteyen,
+İletişimi güçlü, takım çalışmasına yatkın,
+TV yayıncılık sistemleri ve IT sistem entegrasyonu sektörlerinde kendini geliştirmek isteyen adaylar stajyer arayışımız için başvurabilir.
+Her yıl mühendislik alanında eğitimine devam eden öğrenciler arasından, AVİTENG'in faaliyet alanları ve istihdam ihtiyaçları göz önünde bulundurularak stajyerlerimiz belirlenmektedir.
+
+\n\nÖNEMLİ HUSUSLAR:
+
+Stajyer alımımızda temel esas, stajyer adayların kendilerini geliştirme ve profesyonel çalışma ortamı bulma amacında olmalarıdır.
+Ücret karşılığı çalışma amaçlı başvurular yapılmamalıdır!
+Seçilen stajyerin staj sürecinde eğitim ve öğretim süreci boyunca edindiği yetenek ve bilgiyi verilen görevler vasıtasıyla profesyonel bir ortamda pratiğe dökme ortamı bularak deneyim kazanması amaçlanır. Bu bağlamda deneysel öğrenme yoluyla pratik uygulamalar yapacak, şirket içi yönlendirme alacaktır.
+Bölümlerinden 2022 yılında mezun olacak adayların başvuruları beklenir. Buna rağmen mezun adaylar başvuruda bulunmak isterlerse başvurularında ilan şartlarını iyi anladığını ve onayladığı özellikle belirtmelidirler. Aksi halde başvuruları değerlendirmeye alınmayacaktır.
+Stajyer alımımız için herhangi bir ücret ve sosyal güvenlik desteği karşılamaya yönelik bir taahhütümüzün bulunmadığını bildiririz."
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Görüntülenme Sayısı : 374     Başvuru Sayısı : 352"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/green"
+                android:text="İletişime Geç." />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
